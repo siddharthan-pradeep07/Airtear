@@ -8,3 +8,4 @@
 - the stl, avionics and schematic files aren't yet added to this repo. I will edit this once I do.
 - the rocket still hasn't been launched
 -------------------------------------------------------------------------------------------------------
+link: ![https://siddharthan-pradeep07.github.io/Airtear/]
