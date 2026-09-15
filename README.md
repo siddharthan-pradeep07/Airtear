@@ -1,0 +1,10 @@
+### Airtear
+-------------------------------------------------------------------------------------------------------
+- Airtear is a model rocket:
+- Uses a C6-4 rocket engine with 18mm black powder for parachute ejection
+- Fins, bodytube, nose cone are all 3d printed with 2mm thickness
+- This rocket was designed around the engine, so the entire frame and avionics are designed to be light weight.
+- refer to the index.html document for more info about the rocket.
+- the stl, avionics and schematic files aren't yet added to this repo. I will edit this once I do.
+- the rocket still hasn't been launched
+-------------------------------------------------------------------------------------------------------
