@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Airtear Rocket – C6‑4 Engine Data</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+      margin: 2rem;
+      color: #111;
+      background: #f7f7f9;
+    }
+    h1, h2, h3 {
+      margin-top: 1.5em;
+    }
+    h1 {
+      font-size: 1.8rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.25rem;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 900px;
+      margin: 1rem 0;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #f2f2f7;
+      font-weight: 600;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: #555;
+      max-width: 900px;
+    }
+    code {
+      background: #f0f0f5;
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      font-size: 0.95em;
+    }
+    .section {
+      max-width: 900px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Airtear Rocket – C6‑4 Engine Data</h1>
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>
+      This document summarizes all known data about the Airtear model rocket project and its Estes C6‑4 engine,
+      combining information from previous design sessions and standard C‑class engine specifications.
+    </p>
+    <p>
+      The rocket is a 3D‑printed, sensor‑equipped model rocket intended for onboard flight data logging
+      (accelerometer, gyro, and possibly altitude) and post‑flight analysis / visualization.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Engine: Estes C6‑4 (C‑class, 4 s delay)</h2>
+    <p class="note">
+      Values below are based on published Estes C6‑series data and typical C6‑4 specifications.
+      Exact numbers can vary slightly by production lot, but these are representative for design work.
+    </p>
+
+    <table>
+      <tr>
+        <th>Property</th>
+        <th>Value</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>Engine type</td>
+        <td>Estes C6‑4 (black powder)</td>
+        <td>Single‑stage, 4 s delay, standard 18 mm motor.</td>
+      </tr>
+      <tr>
+        <td>Motor class</td>
+        <td>C (total impulse ≈ 10 N·s)</td>
+        <td>C‑class range: 5.01–10.0 N·s; C6 is near the top of the class. [8]</td>
+      </tr>
+      <tr>
+        <td>Total impulse</td>
+        <td>≈ 10.0 N·s</td>
+        <td>Typical for C6 engines. [10][12]</td>
+      </tr>
+      <tr>
+        <td>Average thrust</td>
+        <td>≈ 6 N</td>
+        <td>Derived from impulse / burn time; exact curve varies.</td>
+      </tr>
+      <tr>
+        <td>Maximum thrust</td>
+        <td>≈ 15.3 N (3.4 lbf)</td>
+        <td>Peak thrust value from Estes data for C6‑0/C6‑x family. [12]</td>
+      </tr>
+      <tr>
+        <td>Thrust duration (burn time)</td>
+        <td>≈ 1.6–1.8 s</td>
+        <td>Typical for C6 engines. [12][13]</td>
+      </tr>
+      <tr>
+        <td>Delay time</td>
+        <td>4 s</td>
+        <td>C6‑4: 4 seconds between burnout and ejection charge.</td>
+      </tr>
+      <tr>
+        <td>Diameter</td>
+        <td>18 mm</td>
+        <td>Standard Estes 18 mm motor; fits BT‑20 body tubes and 18 mm engine mounts. [12]</td>
+      </tr>
+      <tr>
+        <td>Length</td>
+        <td>≈ 70 mm (2.75 in)</td>
+        <td>Typical length for 18 mm C‑class motors. [4][12]</td>
+      </tr>
+      <tr>
+        <td>Initial (fresh) weight</td>
+        <td>≈ 24 g (0.85 oz)</td>
+        <td>Varies slightly by source; ~24 g is typical for C6‑5/C6‑4 class. [4][15]</td>
+      </tr>
+      <tr>
+        <td>Propellant weight</td>
+        <td>≈ 10.8 g (0.38 oz)</td>
+        <td>From Estes C6‑5 data; C6‑4 is similar. [4]</td>
+      </tr>
+      <tr>
+        <td>Burnt / empty weight</td>
+        <td>≈ 13 g (estimate)</td>
+        <td>Initial − propellant; exact value depends on casing and nozzle.</td>
+      </tr>
+      <tr>
+        <td>Maximum recommended liftoff weight</td>
+        <td>113 g (4.0 oz)</td>
+        <td>Estes max lift‑off weight for C6 engines. [4][10][12]</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Airtear Rocket – Airframe & Structure</h2>
+    <p class="note">
+      These values come from your previous design sessions and 3D‑printing plans for the Airtear rocket.
+    </p>
+
+    <table>
+      <tr>
+        <th>Property</th>
+        <th>Value</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>Project name</td>
+        <td>Airtear</td>
+        <td>Custom 3D‑printed model rocket with onboard electronics.</td>
+      </tr>
+      <tr>
+        <td>Body tube diameter</td>
+        <td>34 mm</td>
+        <td>Custom diameter (larger than standard BT‑20); likely a custom tube or coupler.</td>
+      </tr>
+      <tr>
+        <td>Total length (approx.)</td>
+        <td>≈ 430 mm</td>
+        <td>From previous session notes on airframe dimensions.</td>
+      </tr>
+      <tr>
+        <td>Airframe mass (structure only)</td>
+        <td>≈ 48–51 g</td>
+        <td>Includes body, fins, nose cone, motor mount, no electronics or engine. [1]</td>
+      </tr>
+      <tr>
+        <td>Design stability (OpenRocket)</td>
+        <td>≈ 3.64 cal</td>
+        <td>Static stability margin from simulation; very stable flight expected. [1]</td>
+      </tr>
+      <tr>
+        <td>Recovery system</td>
+        <td>Not fully specified in sessions</td>
+        <td>Typically a parachute or streamer; mass not yet fixed in available notes.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Electronics Stack</h2>
+    <p class="note">
+      These components were discussed in your sessions for logging flight data and possibly controlling events.
+    </p>
+
+    <table>
+      <tr>
+        <th>Component</th>
+        <th>Typical choice</th>
+        <th>Approx. mass</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>Flight controller / logger</td>
+        <td>Arduino Nano or ESP32 dev board</td>
+        <td>~5–10 g</td>
+        <td>Handles sensor reading, logging, and possibly telemetry.</td>
+      </tr>
+      <tr>
+        <td>IMU sensor</td>
+        <td>MPU6050 (accelerometer + gyro)</td>
+        <td>~2–4 g (module)</td>
+        <td>Used for measuring acceleration and rotation during flight.</td>
+      </tr>
+      <tr>
+        <td>Barometric altimeter (optional)</td>
+        <td>e.g. BMP280 / BMP388</td>
+        <td>~1–2 g (module)</td>
+        <td>For altitude and vertical speed data; not confirmed in all sessions.</td>
+      </tr>
+      <tr>
+        <td>Data storage</td>
+        <td>MicroSD card module</td>
+        <td>~5–8 g (module + card)</td>
+        <td>Logs sensor data for post‑flight analysis.</td>
+      </tr>
+      <tr>
+        <td>Battery</td>
+        <td>3.7 V Li‑Po, ~500 mAh</td>
+        <td>~10–12 g</td>
+        <td>Powers electronics; capacity can be adjusted based on current draw.</td>
+      </tr>
+      <tr>
+        <td>Total electronics mass</td>
+        <td>—</td>
+        <td>≈ 30 g</td>
+        <td>Aggregate estimate from your sessions. [1]</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Mass Budget & Liftoff Weight</h2>
+    <p class="note">
+      All masses are approximate and should be verified with a precise scale once hardware is printed/assembled.
+    </p>
+
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Mass (g)</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>Airframe (structure)</td>
+        <td>≈ 49</td>
+        <td>Midpoint of 48–51 g range. [1]</td>
+      </tr>
+      <tr>
+        <td>Electronics stack</td>
+        <td>≈ 30</td>
+        <td>Controller, sensors, SD, battery. [1]</td>
+      </tr>
+      <tr>
+        <td>Engine (fresh, C6‑4)</td>
+        <td>≈ 24</td>
+        <td>Typical initial weight for C6‑class motor. [4][15]</td>
+      </tr>
+      <tr>
+        <td>Recovery system (estimate)</td>
+        <td>≈ 5–10</td>
+        <td>Parachute, shock cord, deployment wadding; not fully specified yet.</td>
+      </tr>
+      <tr>
+        <td><strong>Total estimated liftoff mass</strong></td>
+        <td><strong>≈ 108–113 g</strong></td>
+        <td>Depends on final recovery mass and exact print density.</td>
+      </tr>
+      <tr>
+        <td>Engine max recommended liftoff weight</td>
+        <td>113 g</td>
+        <td>Estes limit for C6 engines. [4][10][12]</td>
+      </tr>
+    </table>
+
+    <p>
+      With airframe (~49 g) + electronics (~30 g) + engine (~24 g), the base mass is about 103 g.
+      Adding a light recovery system (5–10 g) brings the total close to 108–113 g, right at the C6‑4 limit.
+      If your final build exceeds 113 g, consider:
+    </p>
+    <ul>
+      <li>Reducing infill or wall thickness in non‑critical printed parts.</li>
+      <li>Using a smaller battery if flight time allows.</li>
+      <li>Switching to a D‑class motor (e.g. D12‑5) if your design and local regulations allow.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Performance & Design Notes</h2>
+    <ul>
+      <li>
+        <strong>Stability:</strong> OpenRocket simulations showed ~3.64 cal stability, indicating a very stable rocket.
+        This is higher than the usual 1.5–2.5 cal target, which is fine for early flights but can be tuned down
+        if you want a more “aggressive” flight profile or to reduce weathercocking. [1]
+      </li>
+      <li>
+        <strong>Flight data goals:</strong> Log acceleration and rotation to reconstruct the flight trajectory,
+        validate simulation predictions, and possibly visualize the flight in a 3D environment. [1]
+      </li>
+      <li>
+        <strong>Margin:</strong> With a C6‑4, you have limited mass margin. Any major additions (heavier battery,
+        extra sensors, larger recovery) should trigger a mass re‑check and stability re‑simulation.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>References & Sources</h2>
+    <ul>
+      <li>Estes C6‑series engine charts and specifications (total impulse, thrust, max liftoff weight, etc.). [4][8][10][12][13]</li>
+      <li>Your previous project sessions describing the Airtear rocket airframe, electronics, and stability. [1]</li>
+    </ul>
+  </div>
+</body>
+</html>
